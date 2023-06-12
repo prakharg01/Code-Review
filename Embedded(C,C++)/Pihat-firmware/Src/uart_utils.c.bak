@@ -1,0 +1,26 @@
+/*
+ * b3m.c
+ *
+ *  Created on: Apr 19, 2021
+ *      Author: heman
+ */
+
+#include "uart_utils.h"
+//#include "main.h"
+
+//*****************************************************************************
+//
+// Send a string to the UART.
+//
+//*****************************************************************************
+int8_t UARTSend(UART_HandleTypeDef *huart, uint8_t *buffer, uint8_t size, uint8_t timeout)
+{
+	HAL_UART_Transmit(huart, buffer, size, 10);
+    return 0;
+}
+
+int8_t UARTReceive(UART_HandleTypeDef *huart, uint8_t *buffer, uint8_t size, uint8_t timeout)
+{
+	HAL_UART_Receive(huart, buffer, size, timeout);
+    return 0;
+}
