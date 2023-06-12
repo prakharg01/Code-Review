@@ -1,6 +1,6 @@
 # Code-Review
 
-This repository contains code snippets organized into three different categories for a code review. Please note that some code may be incomplete or not shareable due to proprietary or confidentiality reasons. I have tried keeping a varity rather than depth.
+This repository contains code snippets organized into three different categories for a code review. Please note that some code may be incomplete or not shareable due to proprietary or confidentiality reasons. I have tried keeping a variety rather than depth.
 
 ## Sections
 
